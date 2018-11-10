@@ -1,0 +1,115 @@
+body{
+    border-left: 500px;
+    border-right: 500px;
+}
+.mainsectioncontent{
+    width:960px;
+    background-color: #ffffff;
+    display: block;
+    float: middle;
+    border: solid; 
+    padding: 10px;
+    border-color: lightgrey;
+    border-top-width: 2px;
+
+}
+.title{
+    font-size: 20px;
+    font-style: times;
+    color: #ffffff;
+    background:#4aaaa5;
+    width: 200px;
+    text-align: center;
+    padding: 2px;
+    position: relative; 
+    left:130px;
+}
+.header{
+   /* background: #ffffff;
+    height: 200px;
+    width:fit-content;
+    margin:4%;*/
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+    margin: 5px;
+    position: relative;
+    /*left: 570px;*/
+   /* margin-top: 20%;*/
+   
+
+    
+    
+}
+.wrapper{
+    background-image: url("folk-pattern.png");
+    padding: 15%;
+    padding-right: 100px;
+    border: solid;
+    border-color: #ffffff;
+    border-top-color: lightgrey;
+    border-top-width: 2px;
+
+
+}
+nav{
+    float:right;
+    margin-top: 4%;
+
+    
+}
+.footer{
+    background-color:#666666;
+    display: block;
+    text-align: center;
+    height: 30px;
+    widows: 1000px;
+
+}
+.bordertop{
+    background: #4aaaa5;
+    height: 8px;
+}
+h2{
+    font-size: 48px;
+    font-style: times;
+    border-style: solid;
+    border-color: #ffffff;
+    border-bottom-color: #666666;
+    border-width: 98%;
+    color:#4aaaa5;
+  
+    
+}
+.form{
+    width: 900px;
+}
+input{
+    width: 100%
+}
+@media screen and (max-width:980px){
+    .wrapper{max-width: 100%;} 
+    .mainsectioncontent{max-width: 100%;} 
+    .boardertop{ max-width: 100%;}
+    .footer{max-width: 100%;}
+   
+}
+@media screen and (max-width: 768px){
+    .wrapper{max-width: 100%;} 
+    .mainsectioncontent{max-width: 100%;} 
+    .boardertop{ max-width: 100%;}
+    .footer{max-width: 100%;}
+    
+}
+@media screen and (max-width: 680px){
+    .wrapper{max-width: 100%;} 
+    .mainsectioncontent{max-width: 100%;} 
+    .boardertop{ max-width: 100%;}
+    .footer{max-width: 100%;}
+    header{width: static;}
+    ol{width: static;}
+    nav{width: static;}
+}
+  
